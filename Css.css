@@ -4,6 +4,9 @@ height: 99vh;
 margin:0;
 padding:0;
 border: 3px solid black;
+display: grid;
+
+
 }
 .header{
     margin: 10px;
@@ -13,6 +16,8 @@ border: 3px solid black;
     border: 3px solid black;
     justify-content: center;
     justify-self: center;
+    align-content: center;
+    align-self: center;
 }
 .Switch-menu{
     margin: 5px;
@@ -20,4 +25,11 @@ border: 3px solid black;
     width: 250px;
     height: 85vh;
     border: 3px solid black;
+}
+.MainContent{
+    margin: 5px;
+    border: 3px solid black;
+    width: 1200px;
+    height: auto;
+    justify-self: end;
 }
