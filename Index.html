@@ -7,11 +7,12 @@
     <title>Dnd Worksite</title>
 </head>
 <body>
-    <div id="Container-1">
-        <div class="header">
+     <div class="header">
             <h3>Character Creater</h3>
         </div>
-    <nav class="Switch-menu">
+    <div id="Container-1">
+       
+    <aside class="Switch-menu">
         <ul>
             <li><a href="Index.html"> Character Creater</a></li>
             <li><a href="Wiki.html"> Wiki </a></li>
@@ -21,10 +22,82 @@
             <li><a href="Monsters.html"> Monsters </a></li>
             <li><a href="Starter-Info.html"> Starter Info </a></li>
         </ul>
-    </nav>
-    </div>
+    </aside>
     <div class="MainContent">
+        <!-- <select id="dropBox">
+            <option>Character-inputs</option>
+            <option>Character-Sheet</option>
+        </select> -->
+        <h3>Character name</h3>
+        <input type="text" id="CharacterName">
+
+        <h4 class="InputTitle">class</h4>
+        <select id="ClassSelect">
+            <option>Select class</option>
+            <option>Artificer</option>
+            <option>Barbarian</option>
+            <option>Cleric</option>
+            <option>Druid</option>
+            <option>Fighter</option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+            <option></option>
+
+        </select>
+        <select id="SubclassSelect">
+            <option>Select subclass</option>
+        </select>
+        <h4 class="InputTitle">Character Level</h4>
+        <input id="LV" type="number" min="1" max="20">
+
+        <h4 class="InputTitle">Background</h4>
+        <select id="backgroundinput">
+            <option>Select Background</option>
+            <option>Acolyte</option>
+            <option>Charlatan</option>
+            <option>Criminal</option>
+            <option>Entertainer</option>
+            <option>Folk Hero</option>
+            <option>Guild Artisan</option>
+            <option>Hermit</option>
+            <option>Knight</option>
+            <option>Noble</option>
+            <option>Outlander</option>
+            <option>Sage</option>
+            <option>Sailor</option>
+            <option>Soldier</option>
+            <option>Urchin</option>
+            <option>Pirate</option>
+            <option>Spy</option>
+            <option>Gladiator</option>
+            <option>Haunted One</option>
+            <option>Far Traveler</option>
+            <option>Inheritor</option>
+            <option>Urban Bounty Hunter</option>
+            <option>Mercenary Veteran</option>
+            <option>City Watch</option>
+            <option>Clan Crafter</option>
+            <option>Courtier</option>
+            <option>Faction Agent</option>
+            <option>Gate Warden</option>
+        </select>
 
     </div>
+        <button id="CharacterCreatebutton" onclick="Character_SHeet()">Create Character</button>
+    </div>
 </body>
+<script src="Characterprofile.js"></script>
 </html>
